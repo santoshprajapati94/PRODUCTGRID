@@ -1,0 +1,31 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 100vb;
+    height: 100vh;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.wrapper .item {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+    background:#a26d0a;
+    border-radius: 8px;
+    color: #fff;
+}
+.item .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding:5px 20px 10px 20px;
+    cursor: pointer;
+}
+.wrapper .btn-all{
+    border: 0;
+    outline: 0;
+    background-color: #7d5407;
+    color: #fff;
+    cursor: pointer;
+}
